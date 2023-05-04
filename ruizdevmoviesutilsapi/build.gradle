@@ -39,3 +39,10 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 }
+
+ext {
+    PUBLISH_GROUP_ID = 'com.ruizdev'
+    PUBLISH_VERSION = '0.0.1'
+    PUBLISH_ARTIFACT_ID = 'ruizdevmoviesutilsapi'
+}
+apply from: "${rootProject.projectDir}/scripts/publish-remote.gradle"

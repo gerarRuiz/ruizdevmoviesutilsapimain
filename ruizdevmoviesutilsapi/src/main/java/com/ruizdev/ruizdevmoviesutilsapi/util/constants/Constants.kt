@@ -43,4 +43,6 @@ object Constants {
     const val LOCATION_INTERVAL_FASTEST = 150000L
 
     const val MEDIA_TYPE_MOVIE = "movie"
+
+    const val CI_VALUE = "ci/cd"
 }
